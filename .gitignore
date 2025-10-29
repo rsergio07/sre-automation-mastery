@@ -1,0 +1,47 @@
+# Terraform
+**/*.tfstate
+**/*.tfstate.*
+**/.terraform/
+**/.terraform.lock.hcl
+**/terraform.tfvars
+**/*.tfplan
+
+# Ansible
+**/*.retry
+**/ansible.log
+**/.ansible/
+
+# Python
+**/__pycache__/
+**/*.pyc
+**/*.pyo
+**/.pytest_cache/
+**/venv/
+**/env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets
+**/*secret*
+**/*password*
+**/*.key
+**/*.pem
+
+# Logs
+**/*.log
+
+# Helm
+**/charts/*.tgz
+
+# Local testing
+**/test-output/
+**/tmp/
